@@ -6,6 +6,11 @@
              xmlns:local="clr-namespace:RegisterPageUi.Controls"
              mc:Ignorable="d" 
              Name="myTextBox">
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="MyBoolToVisibilityConverter" />
+    </UserControl.Resources>
+
     <Grid>
             
     </Grid>
