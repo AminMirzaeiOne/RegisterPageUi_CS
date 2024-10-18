@@ -19,7 +19,8 @@ Designing the user interface of a register page in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/995f1997-316e-41cc-9788-b6304f09b93f">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/0afcab93-ce72-45eb-9b94-ac18fc311e77">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/10ec3694-6928-46f5-8b66-844dd40933c9">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/79e55d82-8276-473a-aaa8-135e556ccce5">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/1d2b1f4f-df44-4fd1-bff0-3d80ee86cb72">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/ffe699be-3cdf-4a45-bdc8-17de7abdfc65">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/0b5794b7-f15e-4cad-9581-09ab8045bec5">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/584d2856-7ead-4f15-8b30-b80feaec2d23">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/23e7fcdb-b3ea-44bf-9eec-4e67af0e864c">
