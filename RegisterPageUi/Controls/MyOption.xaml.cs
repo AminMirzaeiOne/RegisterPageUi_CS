@@ -20,6 +20,8 @@ namespace RegisterPageUi.Controls
     /// </summary>
     public partial class MyOption : UserControl
     {
+        public static readonly DependencyProperty TextProperty = DependencyProperty.Register("Text", typeof(string), typeof(MyOption));
+
         public MyOption()
         {
             InitializeComponent();
