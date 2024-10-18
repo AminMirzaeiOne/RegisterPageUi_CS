@@ -24,5 +24,11 @@ namespace RegisterPageUi
         {
             InitializeComponent();
         }
+
+        private void Border_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left) this.DragMove();
+        }
+
     }
 }
