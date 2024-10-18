@@ -7,6 +7,8 @@
              mc:Ignorable="d" 
              Name="myOption">
     <StackPanel>
-            
+        <Button Style="{StaticResource button}">
+            <fa:ImageAwesome Icon="{Binding Path=Icon,ElementName=myOption}" Width="15" Height="15" Foreground="White"/>
+        </Button>
     </StackPanel>
 </UserControl>
