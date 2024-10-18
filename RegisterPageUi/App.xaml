@@ -50,5 +50,12 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="text" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#363636" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+
     </Application.Resources>
 </Application>
