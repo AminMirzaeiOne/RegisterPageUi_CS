@@ -10,5 +10,11 @@
         <Button Style="{StaticResource button}">
             <fa:ImageAwesome Icon="{Binding Path=Icon,ElementName=myOption}" Width="15" Height="15" Foreground="White"/>
         </Button>
+
+        <TextBlock Text="{Binding Path=Text,ElementName=myOption}" Foreground="#363636" VerticalAlignment="Center" Margin="10 0 20 0" FontWeight="SemiBold"/>
+
+
+
+
     </StackPanel>
 </UserControl>
