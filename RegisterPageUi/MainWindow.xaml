@@ -9,6 +9,9 @@
         WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
