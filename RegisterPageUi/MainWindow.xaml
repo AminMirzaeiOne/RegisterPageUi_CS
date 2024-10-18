@@ -35,7 +35,7 @@
                 <Image Source="/Images/close.png" Width="25" Margin="0 4 5 0" Style="{StaticResource iconApp}" MouseDown="Image_MouseDown"/>
                 <Image Source="/Images/minimize.png" Width="20" Margin="0 7 40 0" Style="{StaticResource iconApp}" MouseDown="Image_MouseDown_1"/>
 
-                <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 10 0 0">
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,44,0,0" Width="424">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="150"/>
                         <ColumnDefinition Width="*"/>
@@ -67,8 +67,8 @@
                     <uc:MyTextBox Grid.Column="1" Grid.Row="5" Hint="+91 9765 43210"/>
 
                     <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Margin="0 10">
-                        <uc:MyOption Text="Male" Icon="Male"/>
-                        <uc:MyOption Text="Female" Icon="Female"/>
+                    <uc:MyOption Text="Male" Icon="Male"/>
+                    <uc:MyOption Text="Female" Icon="Female"/>
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="6" Margin="0 10">
