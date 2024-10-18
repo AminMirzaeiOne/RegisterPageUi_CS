@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
 
         <!--Left Section-->
-        <Border Background="#FFD500" Padding="30" CornerRadius="25 0 0 25">
+        <Border Background="Green" Padding="30" CornerRadius="25 0 0 25">
             <StackPanel VerticalAlignment="Center">
                 <Image Source="/Images/img.png" Margin="0 0 0 40" Width="160" Height="160"/>
 
@@ -24,7 +24,7 @@
                 <TextBlock TextWrapping="Wrap" FontSize="16" TextAlignment="Center" Margin="0 20 0 20" Foreground="#363636" Text="it should only take a couple of minutes to pair with your watch"/>
 
                 <Button Style="{StaticResource buttonBlack}">
-                    <fa:ImageAwesome Icon="AngleRight" Width="25" Height="25" Foreground="#FFD500" Margin="3 0 0 0"/>
+                    <fa:ImageAwesome Icon="AngleRight" Width="25" Height="25" Foreground="Green" Margin="3 0 0 0"/>
                 </Button>
             </StackPanel>
         </Border>
@@ -60,10 +60,10 @@
                     <TextBlock Grid.Row="5" Text="Mobile" Style="{StaticResource text}"/>
                     <TextBlock Grid.Row="6" Text="Membership" Style="{StaticResource text}"/>
 
-                    <uc:MyTextBox Grid.Column="1" Grid.Row="0" Hint="Karim"/>
-                    <uc:MyTextBox Grid.Column="1" Grid.Row="1" Hint="Doe"/>
-                    <uc:MyTextBox Grid.Column="1" Grid.Row="3" Hint="01/02/1980"/>
-                    <uc:MyTextBox Grid.Column="1" Grid.Row="4" Hint="KarimDoe@email.com"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="0" Hint="Amin"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="1" Hint="Mirzaei"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="3" Hint="11/1/2007"/>
+                    <uc:MyTextBox Grid.Column="1" Grid.Row="4" Hint="aminmirzaei.og@email.com"/>
                     <uc:MyTextBox Grid.Column="1" Grid.Row="5" Hint="+91 9765 43210"/>
 
                     <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Margin="0 10">
