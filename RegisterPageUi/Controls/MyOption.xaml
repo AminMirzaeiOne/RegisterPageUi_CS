@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:RegisterPageUi.Controls"
              mc:Ignorable="d" 
              Name="myOption">
-    <Grid>
+    <StackPanel>
             
-    </Grid>
+    </StackPanel>
 </UserControl>
