@@ -111,11 +111,11 @@
         </Style>
 
         <Style x:Key="buttonMainGreen" TargetType="Button" BasedOn="{StaticResource buttonMain}">
-            <Setter Property="Background" Value="#5FE7C4" />
+            <Setter Property="Background" Value="Orange" />
             <Setter Property="Foreground" Value="#ffffff" />
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#4ec7a8" />
+                    <Setter Property="Background" Value="Tomato" />
                     <Setter Property="Foreground" Value="#ffffff" />
                 </Trigger>
             </Style.Triggers>
