@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              xmlns:fa="http://schemas.fontawesome.io/icons/"
              Name="myOption">
-    <StackPanel>
+    <StackPanel Orientation="Horizontal">
         <Button Style="{StaticResource button}">
             <fa:ImageAwesome Icon="{Binding Path=Icon,ElementName=myOption}" Width="15" Height="15" Foreground="White"/>
         </Button>
