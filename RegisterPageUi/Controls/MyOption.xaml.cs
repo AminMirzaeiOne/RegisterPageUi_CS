@@ -21,6 +21,8 @@ namespace RegisterPageUi.Controls
     public partial class MyOption : UserControl
     {
         public static readonly DependencyProperty TextProperty = DependencyProperty.Register("Text", typeof(string), typeof(MyOption));
+        public static readonly DependencyProperty IconProperty = DependencyProperty.Register("Icon", typeof(FontAwesome.WPF.FontAwesomeIcon), typeof(MyOption));
+
 
         public MyOption()
         {
