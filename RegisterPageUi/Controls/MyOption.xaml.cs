@@ -29,6 +29,12 @@ namespace RegisterPageUi.Controls
             set { SetValue(TextProperty, value); }
         }
 
+        public FontAwesome.WPF.FontAwesomeIcon Icon
+        {
+            get { return (FontAwesome.WPF.FontAwesomeIcon)GetValue(IconProperty); }
+            set { SetValue(IconProperty, value); }
+        }
+
         public MyOption()
         {
             InitializeComponent();
